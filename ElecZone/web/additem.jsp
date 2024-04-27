@@ -132,7 +132,7 @@
             color: #000;
             text-align: center;
             padding: 20px;
-            position: fixed;
+            
             bottom: 0;
             width: 100%;
             display: flex;
@@ -208,6 +208,7 @@
 
         <input type="submit" value="Submit">
     </form>
+    <br>
 
     <footer>
         <img src="logo.png" alt="Company Logo" height="150px" width="150px">
