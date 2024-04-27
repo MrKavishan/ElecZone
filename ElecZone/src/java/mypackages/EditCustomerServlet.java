@@ -21,50 +21,52 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author User
  */
-@WebServlet(name = "InsertCustomerServlet", urlPatterns = {"/InsertCustomerServlet"})
-public class InsertCustomerServlet extends HttpServlet {
-
+@WebServlet(name = "EditCustomerServlet", urlPatterns = {"/EditCustomerServlet"})
+public class EditCustomerServlet extends HttpServlet {
+    
     private customerDAO customerDAO;
     
-    public InsertCustomerServlet(){ 
+    public EditCustomerServlet(){ 
         this.customerDAO = new customerDAO();
     }
+
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("insert customer");
+        
+        System.out.println("load edit cus");
         try {
-            insertcustomer(request, response);
+            showeditcustomerform(request, response);
         } catch (SecurityException ex) {
-            Logger.getLogger(InsertCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EditCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
-            Logger.getLogger(InsertCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EditCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
     
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       this.doGet(request, response);
+        
+        this.doGet(request, response);
     }
-
-    private void insertcustomer (HttpServletRequest request, HttpServletResponse response)
-            throws IOException , SecurityException, SQLException {
+    
+    private void showeditcustomerform (HttpServletRequest request, HttpServletResponse response)
+            throws IOException,SecurityException,SQLException {
         
         try {
-            String name = request.getParameter("name");
-            String email = request.getParameter("email");
-            String address = request.getParameter("address");
-            String mobile = request.getParameter("mobile");
-            Customer newcustomer = new Customer(name,email,address,mobile);
-            customerDAO.insertCustomer(newcustomer);
-            //add customer table file path
-            response.sendRedirect("/ElecZone/ShowCustomerdetails");
+            int id= Integer.parseInt(request.getParameter("id"));
+            Customer exitcustomer = customerDAO.selectCustomer(id);
+            RequestDispatcher rd = request.getRequestDispatcher("/customerupdateform.jsp");
+            request.setAttribute("customer", exitcustomer);
+            rd.forward(request, response);
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
     }
+        
 }
+
+    
