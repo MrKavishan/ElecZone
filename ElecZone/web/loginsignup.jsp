@@ -24,6 +24,20 @@
         </span>
       </div>
     </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="#" id="signup-form">
+        <input type="text" placeholder="Enter your email" id="signup-email">
+        <input type="password" placeholder="Create a password" id="signup-password">
+        <input type="password" placeholder="Confirm your password" id="confirm-password">
+        <input type="button" class="button" value="Signup" onclick="submitSignupForm();">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
   </div>
 </body>
 </html>
