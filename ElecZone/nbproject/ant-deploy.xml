@@ -53,9 +53,8 @@
             <isset property="glassfish-web-app.context-root"/>
         </condition>
     </target>
-    <target name="-no-parse-sun-web" depends="-init-cl-deployment-env" unless="sun.web.present">
-        <property name="deploy.context.root.argument" value=""/>
-    </target>
+
+    
     <target name="-add-resources" depends="-init-cl-deployment-env" if="has.setup">
         <tempfile prefix="gfv3" property="gfv3.resources.dir" destdir="${java.io.tmpdir}"/>
         <mkdir dir="${gfv3.resources.dir}"/>
