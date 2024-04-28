@@ -3,13 +3,14 @@
     Created on : Apr 27, 2024, 5:58:48 PM
     Author     : User
 --%>
+
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Customers</title>
         <style>
             table{
                 width:100%;
@@ -29,7 +30,7 @@
     <body>
         <h1>Customer DataBase</h1>
         <br><br>
-        <a href="" >New Customer</a>
+        <a href="NewCustomerServlet" >New Customer</a>
         <br><br>
         <table >
             <tr>
@@ -41,6 +42,7 @@
                 <th>Action</th>
                 
             </tr>
+            
             <c:forEach var="customer" items="${customerlist}" >
                 <tr>
                     <td><c:out value="${customer.id}"/></td>
@@ -49,11 +51,12 @@
                     <td><c:out value="${customer.address}"/></td>
                     <td><c:out value="${customer.mobile}"/></td>
                     <td>
-                        <a href="/E-com_Admin/Customerservlet/editc?id=<c:out value="${customer.id}"/>">update</a> &nbsp;&nbsp;
-                        <a href="/E-com_Admin/Customerservlet/deletec?id=<c:out value="${customer.id}"/>">delete</a>
+                        <a href="/ElecZone/EditCustomerServlet?id=<c:out value="${customer.id}"/>">update</a> &nbsp;&nbsp;
+                        <a href="/ElecZone/DeleteCustomerServlet?id=<c:out value="${customer.id}"/>">delete</a>
                     </td>
                 </tr>
-            </c:forEach>                
+            </c:forEach> 
+           
         </table>
         
     </body>

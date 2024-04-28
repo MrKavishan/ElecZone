@@ -10,6 +10,7 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,7 +33,7 @@ public class InsertCustomerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+        System.out.println("insert customer");
         try {
             insertcustomer(request, response);
         } catch (SecurityException ex) {
@@ -49,18 +50,18 @@ public class InsertCustomerServlet extends HttpServlet {
        this.doGet(request, response);
     }
 
-    private void insertcustomer (HttpServletRequest req, HttpServletResponse res)
+    private void insertcustomer (HttpServletRequest request, HttpServletResponse response)
             throws IOException , SecurityException, SQLException {
         
         try {
-            String name = req.getParameter("name");
-            String email = req.getParameter("email");
-            String address = req.getParameter("address");
-            String mobile = req.getParameter("mobile");
+            String name = request.getParameter("name");
+            String email = request.getParameter("email");
+            String address = request.getParameter("address");
+            String mobile = request.getParameter("mobile");
             Customer newcustomer = new Customer(name,email,address,mobile);
             customerDAO.insertCustomer(newcustomer);
             //add customer table file path
-            res.sendRedirect("customerlist.jsp");
+            response.sendRedirect("/ElecZone/ShowCustomerdetails");
         } catch (Exception e) {
             e.printStackTrace();
         }
