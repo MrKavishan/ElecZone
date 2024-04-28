@@ -39,40 +39,5 @@
       </div>
     </div>
   </div>
-
-  <script>
-    function submitSignupForm() {
-      var email = document.getElementById('signup-email').value;
-      var password = document.getElementById('signup-password').value;
-      var confirmPassword = document.getElementById('confirm-password').value;
-
-      if (!email.includes('@')) {
-        alert('Please enter a valid email address.');
-        return false;
-      }
-      if (password === '' || confirmPassword === '') {
-        alert('Please fill out all the password fields.');
-        return false;
-      }
-      if (password !== confirmPassword) {
-        alert('Passwords do not match.');
-        return false;
-      }
-      alert('Signup successful!'); // Placeholder for successful submission
-      return false; // Prevent actual submission for demonstration
-    }
-
-    function submitLoginForm() {
-      var email = document.getElementById('login-email').value;
-      var password = document.getElementById('login-password').value;
-
-      if (!email || !password) {
-        alert('Both email and password are required.');
-        return false;
-      }
-      alert('Login successful!'); // Placeholder for successful login
-      return false; // Prevent actual submission for demonstration
-    }
-  </script>
 </body>
 </html>
