@@ -15,25 +15,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <title>Contact Us</title>
+        
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
         <div class="contact_section layout_padding">
          <div class="container">
             <div class="row">
-               <div class="col-md-6">
-                   <h1 class="contact_taital">Get In Touch</h1>
-                   <p class="contact_text">
-                      You've got some Q's and we've tons and tons of A's. Ask us about an order, a product, what you should name your puppy...anything we can help with! Don't be shy - we promise we're really nice.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <div class="contact_main">
-                      <div class="contact_bt">
-                          <a href="ContactForm.jsp">Let's talk</a>
-                      </div>
-                  </div>
-               </div>
+                <div class="col-md-6">
+                    <h1 class="contact_taital" style="font-size: 90px">Get In Touch</h1>
+                    <p class="contact_text" style="font-size: 20px;font-style: italic;text-align: left">
+                        You've got some Q's and we've tons and tons of A's. Ask us about an order, a product, what you should name your puppy...anything we can help with! Don't be shy - we promise we're really nice.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact_main">
+                        <div class="contact_bt" style="text-align: center;justify-content: center;margin-top: 150px;margin-left: 200px;margin-right: 200px;border-radius: 50px;font-size: 30px;background-color: red">
+                            <a href="ContactForm.jsp">Let's talk</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+            <br><br><br>
+        <div>
+            <p style='font-size: 80px;margin-left: 50px'>We're here</p>
+            <br>
         </div>
         <div class="map_main">
             <div class="map-responsive">
