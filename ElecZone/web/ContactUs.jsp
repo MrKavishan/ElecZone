@@ -15,12 +15,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <title>Contact Us</title>
-        <!-- bootstrap css -->
+        
+        <!--css-->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <!-- style css -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- Responsive-->
         <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
         <div class="contact_section layout_padding">
