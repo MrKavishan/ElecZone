@@ -8,6 +8,7 @@ package mypackages;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
@@ -21,25 +22,24 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author User
  */
-@WebServlet(name = "InsertCustomerServlet", urlPatterns = {"/InsertCustomerServlet"})
-public class InsertCustomerServlet extends HttpServlet {
-
+@WebServlet(name = "ShowCustomerdetails", urlPatterns = {"/ShowCustomerdetails"})
+public class ShowCustomerdetails extends HttpServlet {
+    
     private customerDAO customerDAO;
     
-    public InsertCustomerServlet(){ 
+    public ShowCustomerdetails(){ 
         this.customerDAO = new customerDAO();
     }
+
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("insert customer");
+        System.out.println("show details");
         try {
-            insertcustomer(request, response);
-        } catch (SecurityException ex) {
-            Logger.getLogger(InsertCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
+            listallcustomer(request, response);
         } catch (SQLException ex) {
-            Logger.getLogger(InsertCustomerServlet.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ShowCustomerdetails.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -47,24 +47,23 @@ public class InsertCustomerServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       this.doGet(request, response);
+        this.doDelete(request, response);
     }
-
-    private void insertcustomer (HttpServletRequest request, HttpServletResponse response)
-            throws IOException , SecurityException, SQLException {
+    
+    
+    private void listallcustomer (HttpServletRequest req, HttpServletResponse res)
+            throws IOException, ServletException, SQLException {
         
         try {
-            String name = request.getParameter("name");
-            String email = request.getParameter("email");
-            String address = request.getParameter("address");
-            String mobile = request.getParameter("mobile");
-            Customer newcustomer = new Customer(name,email,address,mobile);
-            customerDAO.insertCustomer(newcustomer);
-            //add customer table file path
-            response.sendRedirect("/ElecZone/ShowCustomerdetails");
+            List<Customer> listcustomer = customerDAO.selectallCustomers();
+            RequestDispatcher rs= req.getRequestDispatcher("/customerlist.jsp");
+            req.setAttribute("customerlist", listcustomer);
+            rs.forward(req, res);
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
     }
+
+
 }
