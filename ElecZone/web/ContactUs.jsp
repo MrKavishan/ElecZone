@@ -29,7 +29,7 @@
                <div class="col-md-6">
                   <div class="contact_main">
                       <div class="contact_bt">
-                          <a href="contactForm.jsp">Let's talk</a>
+                          <a href="ContactForm.jsp">Let's talk</a>
                       </div>
                   </div>
                </div>
