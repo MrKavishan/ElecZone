@@ -28,19 +28,19 @@
         <div class="contact_section layout_padding">
          <div class="container">
             <div class="row">
-               <div class="col-md-6">
-                   <h1 class="contact_taital">Get In Touch</h1>
-                   <p class="contact_text">
-                      You've got some Q's and we've tons and tons of A's. Ask us about an order, a product, what you should name your puppy...anything we can help with! Don't be shy - we promise we're really nice.
-                  </p>
-               </div>
-               <div class="col-md-6">
-                  <div class="contact_main">
-                      <div class="contact_bt">
-                          <a href="ContactForm.jsp">Let's talk</a>
-                      </div>
-                  </div>
-               </div>
+                <div class="col-md-6">
+                    <h1 class="contact_taital" style="font-size: 90px">Get In Touch</h1>
+                    <p class="contact_text" style="font-size: 20px;font-style: italic;text-align: left">
+                        You've got some Q's and we've tons and tons of A's. Ask us about an order, a product, what you should name your puppy...anything we can help with! Don't be shy - we promise we're really nice.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact_main">
+                        <div class="contact_bt" style="text-align: center;justify-content: center;margin-top: 150px;margin-left: 200px;margin-right: 200px;border-radius: 50px;font-size: 30px;background-color: red">
+                            <a href="ContactForm.jsp">Let's talk</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
             <br><br><br>
