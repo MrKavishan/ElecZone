@@ -28,6 +28,14 @@
         <servlet-name>NewCustomerServlet</servlet-name>
         <servlet-class>mypackages.NewCustomerServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ShowOrderdetails</servlet-name>
+        <servlet-class>mypackages.ShowOrderdetails</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteOrderServlet</servlet-name>
+        <servlet-class>mypackages.DeleteOrderServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>productservlet</servlet-name>
         <url-pattern>/productservlet/*</url-pattern>
@@ -55,6 +63,14 @@
     <servlet-mapping>
         <servlet-name>NewCustomerServlet</servlet-name>
         <url-pattern>/NewCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowOrderdetails</servlet-name>
+        <url-pattern>/ShowOrderdetails</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteOrderServlet</servlet-name>
+        <url-pattern>/DeleteOrderServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

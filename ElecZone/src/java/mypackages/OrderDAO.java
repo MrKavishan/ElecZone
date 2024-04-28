@@ -102,7 +102,7 @@ public class OrderDAO {
                     int orderid=rs.getInt("orderid");
                     String productname= rs.getString("productname");
                     Double price= rs.getDouble("price");
-                    Integer quantity= rs.getInt("quantity");
+                    int quantity= rs.getInt("quantity");
                     Double totalprice = rs.getDouble("totalprice");
                     orders.add(new Order(orderid,productname,price,quantity,totalprice));
                 }
@@ -117,7 +117,7 @@ public class OrderDAO {
     try {
         Connection connection = getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ORDER_BY_ID);
-        preparedStatement.setInt(1, orderid); // Set the id parameter
+        preparedStatement.setInt(1, orderid);// Set the id parameter
         ResultSet rs = preparedStatement.executeQuery();
 
         while (rs.next()) {
