@@ -54,11 +54,6 @@ textarea {
   resize:vertical;
 }
 
-input[type="text"] {
-  background-color: #CC6666;
-  color: #0f0c29;
-}
-
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
