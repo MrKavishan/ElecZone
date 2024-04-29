@@ -388,7 +388,7 @@
                <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
             </div>
             <div class="footer_menu">
-                <p>Your Hub for Cutting-Edge Electronics!" <br>
+                <p>"Your Hub for Cutting-Edge Electronics!" <br>
                      Where the place that your dream come true
                 </p>
             <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
