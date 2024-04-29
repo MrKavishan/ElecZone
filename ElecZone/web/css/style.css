@@ -214,10 +214,11 @@ button {
 .banner_bg_main {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
-    height: auto;
+    background-image: url(../images/cover1.jpg);
+    height: 900px;
     background-size: 100%;
     background-repeat: no-repeat;
+    
 }
 
 
@@ -233,6 +234,7 @@ button {
     clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
     height: auto;
     padding: 10px 0px;
+   
 }
 
 .custom_menu {
@@ -496,6 +498,7 @@ a:hover {
     width: 170px;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 450px;
 }
 
 .buynow_bt a {
@@ -553,7 +556,8 @@ a:hover {
 .product_section {
     width: 100%;
     float: left;
-    padding-bottom: 150px;
+   
+   
 }
 
 .product_taital {
