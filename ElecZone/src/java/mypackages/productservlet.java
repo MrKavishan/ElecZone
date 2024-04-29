@@ -63,10 +63,12 @@ public class productservlet extends HttpServlet {
         private void showhomepage(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException{
             try{
-               List<Products> allphones =productdov.selectAllPhones();
-               RequestDispatcher dis =request.getRequestDispatcher("/produt.jsp");
-               request.setAttribute("allphones", allphones);
+               List<Products> alllaptops =productdov.selectAllLaptops();
+               RequestDispatcher dis =request.getRequestDispatcher("/product.jsp");
+               request.setAttribute("alllaptop", alllaptops);
                dis.forward(request, response);
+               
+               
             }
             catch(IOException | ServletException e){
                 e.printStackTrace();
