@@ -201,8 +201,8 @@
                                  <div class="laptop_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
                                  <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="seemore.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -213,8 +213,8 @@
                                  <div class="laptop_img"><img src="images/HP Spectre x360.jpg"></div>
                                  <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -225,8 +225,8 @@
                                  <div class="laptop_img"><img src="images/HP Spectre Folio.jpg"></div>
                                  <p>Windows 10 Home 64,8th Generation Intel® Core™ i7 processor,Intel® UHD Graphics 615,8 GB memory; 256 GB SSD storage</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -238,8 +238,8 @@
                                  <div class="laptop_img"><img src="images/hp envy.png"></div>
                                  <p>Windows 11 HomeIntel® Core™ i7-13700H (up to 5.0 GHz, 24 MB L3 cache, 14 cores, 20 threads) + Intel® Iris® Xe Graphics,16 GB DDR4-3200 SDRAM (2 x 8 GB),512 GB PCIe® NVMe™ M.2 SSD </p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -250,8 +250,8 @@
                                  <div class="laptop_img"><img src="images/omen.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -262,8 +262,8 @@
                                  <div class="laptop_img"><img src="images/hp zbook.jpg"></div>
                                  <p>HP ZBook Fury 16 G10 Intel Core i7-13700HX 16GB RAM 512GB SSD NVIDIA RTX A1000 16 inch WUXGA IPS Windows 11 Pro Laptop</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -275,8 +275,8 @@
                                  <div class="laptop_img"><img src="images/asus zenbook.jpg"></div>
                                  <p>Windows 10 Home - ASUS recommends Windows 10 Pro for business, Free Upgrade to Windows 11¹,Up to 15.6" 4K/UHD OLED NanoEdge display</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -287,25 +287,25 @@
                                  <div class="laptop_img"><img src="images/vivo book.jpg"></div>
                                  <p>Windows 11 Home - ASUS recommends Windows 11 Pro for business,Intel® Core™ i3-1220P Processor,Intel® UHD Graphics</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
+                              </div>
                               </div>
                            </div>
-                             <div class="col-lg-4 col-sm-4">
+                                   <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
                                  <h4 class="laptop_text">LENOVO NOTEBOOK V14</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
                                  <div class="laptop_img"><img src="images/lenovo.jpg"></div>
                                  <p>Powerful AMD Ryzen™ processors with AMD Radeon™ graphics,14″ FHD (1920 x 1080) display with low-blue light to reduce eye strain</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="laptop.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
                           
-                    <!-- footer section start -->
+                   <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>

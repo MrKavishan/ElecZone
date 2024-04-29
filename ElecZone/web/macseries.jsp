@@ -225,8 +225,8 @@
                                  <div class="laptop_img"><img src="images/macbook air pro.jpg"></div>
                                  <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone,MagSafe 3 charging port,Backlit Magic Keyboard with Touch ID,1080p FaceTime HD camera</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="macseries.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -237,8 +237,8 @@
                                  <div class="laptop_img"><img src="images/macbook air.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="macseries.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -249,8 +249,8 @@
                                  <div class="laptop_img"><img src="images/macbook pro.jpg"></div>
                                  <p>The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life,MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="macseries.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
