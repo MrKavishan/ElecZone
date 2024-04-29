@@ -63,11 +63,11 @@
                   <div class="col-sm-12">
                      <div class="custom_menu">
                         <ul>
-                           <li><a href="#">Home</a></li>
+                           <li><a href="produt.jsp">Home</a></li>
                            <li><a href="#">Product</a></li>
-                           <li><a href="#">Services</a></li>
-                           <li><a href="#">About Us</a></li>
-                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="servise.jsp">Services</a></li>
+                           <li><a href="aboutus.jsp">About Us</a></li>
+                           <li><a href="contact us.jsp">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
@@ -92,12 +92,12 @@
                <div class="containt_main">
                   <div id="mySidenav" class="sidenav">
                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="index.html">Home</a>
-                     <a href="fashion.html">Laptops</a>
-                     <a href="electronic.html">Mac series</a>
-                     <a href="jewellery.html">I phones</a>
-                     <a href="jewellery.html">Camaras</a>
-                     <a href="jewellery.html">Head phones</a>
+                     <a href="product.jsp">Home</a>
+                     <a href="laptop.jsp">Laptops</a>
+                     <a href="macseries.jsp">Mac series</a>
+                     <a href="iphone.jsp">I phones</a>
+                     <a href="camaras.jsp">Camaras</a>
+                     <a href="headphones.jsp">Head phones</a>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                   <div class="dropdown">
@@ -141,6 +141,7 @@
                </div>
             </div>
          </div>
+         <br><br>
          <!-- header section end -->
          <!-- banner section start -->
          <div class="banner_section layout_padding">
@@ -150,7 +151,7 @@
                      <div class="carousel-item active">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Get Start <br>Everything You Need, All in One Place</h1>
                              
                            </div>
                         </div>
@@ -158,7 +159,7 @@
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Get Start <br>Get More Tech for Less </h1>
                              
                            </div>
                         </div>
@@ -166,7 +167,7 @@
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Get Start <br>Find Your Perfect Tech</h1>
                            
                            </div>
                         </div>
