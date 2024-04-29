@@ -7,12 +7,16 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+   
+        <!DOCTYPE html>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Elec-Zone</title>
     </head>
     <body>
-         <html lang="en">
+        <!DOCTYPE html>
+<html lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -59,11 +63,11 @@
                   <div class="col-sm-12">
                      <div class="custom_menu">
                         <ul>
-                           <li><a href="#">Best Sellers</a></li>
-                           <li><a href="#">Gift Ideas</a></li>
-                           <li><a href="#">New Releases</a></li>
-                           <li><a href="#">Today's Deals</a></li>
-                           <li><a href="#">Customer Service</a></li>
+                           <li><a href="produt.jsp">Home</a></li>
+                           <li><a href="#">Product</a></li>
+                           <li><a href="servise.jsp">Services</a></li>
+                           <li><a href="aboutus.jsp">About Us</a></li>
+                           <li><a href="contact us.jsp">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
@@ -76,7 +80,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-sm-12">
-                     <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                     <div class="logo"><a href="index.html"><img src="">Elec Zone</a></div>
                   </div>
                </div>
             </div>
@@ -88,20 +92,15 @@
                <div class="containt_main">
                   <div id="mySidenav" class="sidenav">
                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="index.html">Home</a>
-                     <a href="fashion.html">Fashion</a>
-                     <a href="electronic.html">Electronic</a>
-                     <a href="jewellery.html">Jewellery</a>
+                     <a href="product.jsp">Home</a>
+                     <a href="laptop.jsp">Laptops</a>
+                     <a href="macseries.jsp">Mac series</a>
+                     <a href="iphone.jsp">I phones</a>
+                     <a href="camaras.jsp">Camaras</a>
+                     <a href="headphones.jsp">Head phones</a>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                   <div class="dropdown">
-                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
-                     </button>
-                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                     </div>
                   </div>
                   <div class="main">
                      <!-- Another variation with a button -->
@@ -130,11 +129,11 @@
                         <ul>
                            <li><a href="#">
                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                              <span class="padding_10">Login</span></a>
                            </li>
                            <li><a href="#">
                               <i class="fa fa-user" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                              <span class="padding_10">Sign up</span></a>
                            </li>
                         </ul>
                      </div>
@@ -142,6 +141,7 @@
                </div>
             </div>
          </div>
+         <br><br>
          <!-- header section end -->
          <!-- banner section start -->
          <div class="banner_section layout_padding">
@@ -151,24 +151,24 @@
                      <div class="carousel-item active">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Everything You Need, All in One Place</h1>
+                             
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Get More Tech for Less </h1>
+                             
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Find Your Perfect Tech</h1>
+                           
                            </div>
                         </div>
                      </div>
@@ -230,8 +230,7 @@
                                  </div>
                               </div>
                            </div>
-                                                
-                             <!-- footer section start -->
+         <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
@@ -240,22 +239,17 @@
                <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
             </div>
             <div class="footer_menu">
-               <ul>
-                  <li><a href="#">Best Sellers</a></li>
-                  <li><a href="#">Gift Ideas</a></li>
-                  <li><a href="#">New Releases</a></li>
-                  <li><a href="#">Today's Deals</a></li>
-                  <li><a href="#">Customer Service</a></li>
-               </ul>
-            </div>
+                <p>"Your Hub for Cutting-Edge Electronics!" <br>
+                     Where the place that your dream come true
+                </p>
             <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
          </div>
       </div>
-      <!-- footer section end -->
+      <!-- footer section end -->                 
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+            <p class="copyright_text"><a href="https://html.design"></a></p>
          </div>
       </div>
       <!-- copyright section end -->

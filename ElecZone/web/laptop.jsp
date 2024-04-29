@@ -7,9 +7,12 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+   
+        <!DOCTYPE html>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Elec-Zone</title>
     </head>
     <body>
         <!DOCTYPE html>
@@ -60,11 +63,11 @@
                   <div class="col-sm-12">
                      <div class="custom_menu">
                         <ul>
-                           <li><a href="#">Best Sellers</a></li>
-                           <li><a href="#">Gift Ideas</a></li>
-                           <li><a href="#">New Releases</a></li>
-                           <li><a href="#">Today's Deals</a></li>
-                           <li><a href="#">Customer Service</a></li>
+                           <li><a href="produt.jsp">Home</a></li>
+                           <li><a href="#">Product</a></li>
+                           <li><a href="servise.jsp">Services</a></li>
+                           <li><a href="aboutus.jsp">About Us</a></li>
+                           <li><a href="contact us.jsp">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
@@ -77,7 +80,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-sm-12">
-                     <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                     <div class="logo"><a href="index.html"><img src="">Elec Zone</a></div>
                   </div>
                </div>
             </div>
@@ -89,20 +92,15 @@
                <div class="containt_main">
                   <div id="mySidenav" class="sidenav">
                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="index.html">Home</a>
-                     <a href="fashion.html">Fashion</a>
-                     <a href="electronic.html">Electronic</a>
-                     <a href="jewellery.html">Jewellery</a>
+                     <a href="product.jsp">Home</a>
+                     <a href="laptop.jsp">Laptops</a>
+                     <a href="macseries.jsp">Mac series</a>
+                     <a href="iphone.jsp">I phones</a>
+                     <a href="camaras.jsp">Camaras</a>
+                     <a href="headphones.jsp">Head phones</a>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                   <div class="dropdown">
-                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
-                     </button>
-                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                     </div>
                   </div>
                   <div class="main">
                      <!-- Another variation with a button -->
@@ -131,11 +129,11 @@
                         <ul>
                            <li><a href="#">
                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                              <span class="padding_10">Login</span></a>
                            </li>
                            <li><a href="#">
                               <i class="fa fa-user" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                              <span class="padding_10">Sign up</span></a>
                            </li>
                         </ul>
                      </div>
@@ -143,6 +141,7 @@
                </div>
             </div>
          </div>
+         <br><br>
          <!-- header section end -->
          <!-- banner section start -->
          <div class="banner_section layout_padding">
@@ -152,24 +151,24 @@
                      <div class="carousel-item active">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Everything You Need, All in One Place</h1>
+                             
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Get More Tech for Less </h1>
+                             
                            </div>
                         </div>
                      </div>
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
-                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                              <h1 class="banner_taital">Get Start <br>Find Your Perfect Tech</h1>
+                           
                            </div>
                         </div>
                      </div>
@@ -236,7 +235,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">HP Envy laptop</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 258,300</span></p>
-                                 <div class="laptop_img"><img src="images/hpenvy.png"></div>
+                                 <div class="laptop_img"><img src="images/hp envy.png"></div>
                                  <p>Windows 11 HomeIntel® Core™ i7-13700H (up to 5.0 GHz, 24 MB L3 cache, 14 cores, 20 threads) + Intel® Iris® Xe Graphics,16 GB DDR4-3200 SDRAM (2 x 8 GB),512 GB PCIe® NVMe™ M.2 SSD </p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -248,7 +247,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">OMEN Gaming Laptop</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 330,330</span></p>
-                                 <div class="laptop_img"><img src="images/omen1.jpg"></div>
+                                 <div class="laptop_img"><img src="images/omen.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -260,7 +259,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">HP ZBook </h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 471,175</span></p>
-                                 <div class="laptop_img"><img src="images/hpzbook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/hp zbook.jpg"></div>
                                  <p>HP ZBook Fury 16 G10 Intel Core i7-13700HX 16GB RAM 512GB SSD NVIDIA RTX A1000 16 inch WUXGA IPS Windows 11 Pro Laptop</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -273,7 +272,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">ASUS ZENBOOK PRO DUO</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 250,000</span></p>
-                                 <div class="laptop_img"><img src="images/asuszenbook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/asus zenbook.jpg"></div>
                                  <p>Windows 10 Home - ASUS recommends Windows 10 Pro for business, Free Upgrade to Windows 11¹,Up to 15.6" 4K/UHD OLED NanoEdge display</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -285,7 +284,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">ASUS VIVO BOOK 15</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 230,900</span></p>
-                                 <div class="laptop_img"><img src="images/vivobook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/vivo book.jpg"></div>
                                  <p>Windows 11 Home - ASUS recommends Windows 11 Pro for business,Intel® Core™ i3-1220P Processor,Intel® UHD Graphics</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -297,7 +296,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">LENOVO NOTEBOOK V14</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
-                                 <div class="laptop_img"><img src="images/lenovo1.jpg"></div>
+                                 <div class="laptop_img"><img src="images/lenovo.jpg"></div>
                                  <p>Powerful AMD Ryzen™ processors with AMD Radeon™ graphics,14″ FHD (1920 x 1080) display with low-blue light to reduce eye strain</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -306,8 +305,7 @@
                               </div>
                            </div>
                           
-                                 
-                             <!-- footer section start -->
+                    <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
@@ -316,14 +314,9 @@
                <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
             </div>
             <div class="footer_menu">
-               <ul>
-                  <li><a href="#">Best Sellers</a></li>
-                  <li><a href="#">Gift Ideas</a></li>
-                  <li><a href="#">New Releases</a></li>
-                  <li><a href="#">Today's Deals</a></li>
-                  <li><a href="#">Customer Service</a></li>
-               </ul>
-            </div>
+                <p>"Your Hub for Cutting-Edge Electronics!" <br>
+                     Where the place that your dream come true
+                </p>
             <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
          </div>
       </div>
@@ -331,7 +324,7 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+            <p class="copyright_text"><a href="https://html.design"></a></p>
          </div>
       </div>
       <!-- copyright section end -->
