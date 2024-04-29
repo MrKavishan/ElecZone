@@ -96,50 +96,9 @@
           </div>
         </div>
       </div>
-      <footer class="footer position-absolute bottom-2 py-2 w-100">
-        <div class="container">
-          <div class="row align-items-center justify-content-lg-between">
-            <div class="col-12 col-md-6 my-auto">
-              <div class="copyright text-center text-sm text-muted text-lg-start">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>,
-                Made by
-                <a href="#" class="font-weight-bold" target="_blank">Elec-Zone Crew</a>
-                for a Better Shopping Experience
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Elec-Zone</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link pe-0 text-white" target="_blank">License</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+
     </div>
   </main>
-  <!--   Core JS Files   -->
-  <script src="assets/js/core/popper.min.js"></script>
-  <script src="assets/js/core/bootstrap.min.js"></script>
-  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
-
-  <!-- Github buttons -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="assets/js/material-dashboard.min.js?v=3.1.0"></script>
 </body>
 
 </html>
