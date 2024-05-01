@@ -1,0 +1,59 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Header styles */
+  
+  main {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(157, 152, 152, 0.5);
+    padding: 30px;
+    border-left: 20px;
+    border-radius: 20px;
+  }
+  /* Main content styles */
+  p {
+    color: #020130;
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    align-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 0.07em;
+    line-height: 1.3em;
+  }
+  
+  /* Highlighted text */
+  .highlight {
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
+  /* Footer styles */
+  footer {
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    bottom: 3%;
+    width: 100%;
+  }
+  
+  body {
+    background-image: url("../assets/img/aboutUs.jpeg"); /* Replace 'your-background-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 25%;
+    background-repeat: no-repeat; /* Optional: prevents the background image from repeating */
+    background-color: rgba(115, 103, 103, 0.5);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
