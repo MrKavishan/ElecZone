@@ -35,7 +35,7 @@ public class CustLoginServlet extends HttpServlet {
             if (rs.next()) {
                 HttpSession session = request.getSession();
                 session.setAttribute("email", email);
-                response.sendRedirect("dashboard.jsp");//connect user profile
+                response.sendRedirect("profile.jsp");//connect user profile
             } else {
                 response.setContentType("text/html");
                 PrintWriter out = response.getWriter();
