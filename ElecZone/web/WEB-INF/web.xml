@@ -5,56 +5,14 @@
         <servlet-class>mypackages.productservlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>InsertCustomerServlet</servlet-name>
-        <servlet-class>mypackages.InsertCustomerServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ShowCustomerdetails</servlet-name>
-        <servlet-class>mypackages.ShowCustomerdetails</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UpdateCustomerServlet</servlet-name>
-        <servlet-class>mypackages.UpdateCustomerServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>EditCustomerServlet</servlet-name>
-        <servlet-class>mypackages.EditCustomerServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>DeleteCustomerServlet</servlet-name>
-        <servlet-class>mypackages.DeleteCustomerServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>NewCustomerServlet</servlet-name>
-        <servlet-class>mypackages.NewCustomerServlet</servlet-class>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>productservlet</servlet-name>
         <url-pattern>/productservlet/*</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>InsertCustomerServlet</servlet-name>
-        <url-pattern>/InsertCustomerServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ShowCustomerdetails</servlet-name>
-        <url-pattern>/ShowCustomerdetails</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UpdateCustomerServlet</servlet-name>
-        <url-pattern>/UpdateCustomerServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>EditCustomerServlet</servlet-name>
-        <url-pattern>/EditCustomerServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>DeleteCustomerServlet</servlet-name>
-        <url-pattern>/DeleteCustomerServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>NewCustomerServlet</servlet-name>
-        <url-pattern>/NewCustomerServlet</url-pattern>
+
     </servlet-mapping>
     <session-config>
         <session-timeout>
