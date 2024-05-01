@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mypackages;
+package myPackages;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author user
+ * @author fazla
  */
-public class contactFormServlet extends HttpServlet {
+public class ContactFormServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,10 +35,10 @@ public class contactFormServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet contactFormServlet</title>");            
+            out.println("<title>Servlet ContactFormServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet contactFormServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet ContactFormServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -70,7 +70,13 @@ public class contactFormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String name = request.getParameter("name");
+        String email = request.getParameter("email");
+        String subject = request.getParameter("subject");
+        String message = request.getParameter("message");
+        
+        response.sendRedirect("Thankyou.html");
+        //processRequest(request, response);
     }
 
     /**

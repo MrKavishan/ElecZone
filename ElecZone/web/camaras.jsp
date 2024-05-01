@@ -201,7 +201,7 @@
                                  <div class="laptop_img"><img src="images/canon 22.jpg"></div>
                                  <p>Approx. 45MP full-frame CMOS sensor,Up to 8-stop In-Body Image Stabilizer X Optical Image Stabilizer,Up to 20 FPS + Animal Detection AF,8K DCI movie + 4K DCI 120 fps video recording capability,The EOS R5 is here with groundbreaking 8K resolution video recording</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -213,7 +213,7 @@
                                  <div class="laptop_img"><img src="images/canon EOS R50.jpg"></div>
                                  <p>Bringing together the mobile versatility of the EOS R50 mirrorless camera with a lens, shotgun microphone, and tripod grip, the EOS R50 Content Creator Kit from Canon is a starter's bundle tailored for vloggers, videographers, and visionaries who are keen to record their world in high-quality detail</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -225,7 +225,7 @@
                                  <div class="laptop_img"><img src="images/canon EOS RP.jpg"></div>
                                  <p>Impressively small despite having a large full-frame sensor, the Canon EOS RP offers flexible imaging capabilities along with a portable form factor. Featuring a high-resolution 26.2MP full-frame CMOS sensor along with a DIGIC 8 image processor</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -238,8 +238,8 @@
                                  <div class="laptop_img"><img src="images/sonyfe lence.jpg"></div>
                                  <p>-Mount Lens/Full-Frame Format,perture Range: f/1.2 to f/16,Three XA Elements,Nano AR II and Fluorine Coatings</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                     <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
@@ -250,8 +250,8 @@
                                  <div class="laptop_img"><img src="images/godox.jpg"></div>
                                  <P>Built-In 2.4 GHz Wireless X System,Compatible with Most TTL Systems,600Ws, 1/256 to 1/1 Power Output</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                     <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
@@ -262,8 +262,8 @@
                                  <div class="laptop_img"><img src="images/GoPro-12.jpg"></div>
                                  <p>27MP with Improved Performance,HyperSmooth 6.0 Image Stabilization,5.3K60/4K120/2.7K240 Video, 27MP Photos</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                     <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
@@ -275,8 +275,8 @@
                                  <div class="laptop_img"><img src="images/dji osmo.jpg"></div>
                                  <p>3-Axis Stabilization,Magnetic Design,Portable and Foldable,ActiveTrack 5.0</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
@@ -287,8 +287,8 @@
                                  <div class="laptop_img"><img src="images/dji mavic.jpg"></div>
                                  <p>3-Axis Gimbal with Tri-Camera System,20MP 5.1K Wide-Angle 4/3 CMOS Hasselblad,70mm 48MP 3x Zoom Medium Telephoto Lens</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
@@ -299,8 +299,8 @@
                                  <div class="laptop_img"><img src="images/gopro hero.jpg"></div>
                                  <p>HERO12 Black Action Camera,Floating Handgrip, Head Strap Mount,Additional Enduro Battery,Carry Case</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>

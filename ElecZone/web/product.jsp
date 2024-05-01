@@ -201,7 +201,7 @@
                                  <div class="laptop_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
                                  <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="laptop.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -213,7 +213,7 @@
                                  <div class="laptop_img"><img src="images/HP Spectre x360.jpg"></div>
                                  <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="laptop.jsp">See MORE</a></div>
                                  </div>
                               </div>
@@ -225,7 +225,7 @@
                                  <div class="laptop_img"><img src="images/HP Spectre Folio.jpg"></div>
                                  <p>Windows 10 Home 64,8th Generation Intel® Core™ i7 processor,Intel® UHD Graphics 615,8 GB memory; 256 GB SSD storage</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="laptop.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -238,7 +238,7 @@
                                  <div class="laptop_img"><img src="images/macbook air pro.jpg"></div>
                                  <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone,MagSafe 3 charging port,Backlit Magic Keyboard with Touch ID,1080p FaceTime HD camera</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="macseries.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -250,7 +250,7 @@
                                  <div class="laptop_img"><img src="images/macbook air.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="macseries.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -262,7 +262,7 @@
                                  <div class="laptop_img"><img src="images/macbook pro.jpg"></div>
                                  <p>The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life1 and an active cooling system to sustain enhanced performance,MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="macseries.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -275,7 +275,7 @@
                                  <div class="laptop_img"><img src="images/i12 pro max.jpg"></div>
                                  <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                  <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -287,7 +287,7 @@
                                  <div class="laptop_img"><img src="images/i14 pro.jpg"></div>
                                  <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                  <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -299,7 +299,7 @@
                                  <div class="laptop_img"><img src="images/i15.jpg"></div>
                                  <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="iphone.jsp">See more</a></div>
                                  </div>
                               </div>
@@ -312,7 +312,7 @@
                                  <div class="laptop_img"><img src="images/canon 22.jpg"></div>
                                  <p>Approx. 45MP full-frame CMOS sensor,Up to 8-stop In-Body Image Stabilizer X Optical Image Stabilizer,Up to 20 FPS + Animal Detection AF,8K DCI movie + 4K DCI 120 fps video recording capability,The EOS R5 is here with groundbreaking 8K resolution video recording</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -324,7 +324,7 @@
                                  <div class="laptop_img"><img src="images/canon EOS R50.jpg"></div>
                                  <p>Bringing together the mobile versatility of the EOS R50 mirrorless camera with a lens, shotgun microphone, and tripod grip, the EOS R50 Content Creator Kit from Canon is a starter's bundle tailored for vloggers, videographers, and visionaries who are keen to record their world in high-quality detail</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                  <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -336,7 +336,7 @@
                                  <div class="laptop_img"><img src="images/canon EOS RP.jpg"></div>
                                  <p>Impressively small despite having a large full-frame sensor, the Canon EOS RP offers flexible imaging capabilities along with a portable form factor. Featuring a high-resolution 26.2MP full-frame CMOS sensor along with a DIGIC 8 image processor</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -349,7 +349,7 @@
                                  <div class="laptop_img"><img src="images/AKG Archives.jpg"></div>
                                  <p>Custom 50mm Drivers,Bluetooth 5.0 Connectivity,AAC, SBC Codecs,15 Hz to 28 kHz Frequency Response</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -361,7 +361,7 @@
                                  <div class="laptop_img"><img src="images/sony WH-CH520.jpg"></div>
                                  <p>Up to 50-hour battery life,Quick charging,Crystal clear hands-free calling with built-in mic,Multipoint connection,Keep your music playing all day with a battery life that delivers up to 50 hours of power. USB Type-C quick charging gives up to 90 mins of play back from 3 minutes of charge</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
                                  </div>
                               </div>
@@ -373,7 +373,7 @@
                                  <div class="laptop_img"><img src="images/sony wirless headphone.jpg"></div>
                                  <P>Integrated noise canceling technology,80 hours of battery life,Lightweight for ultimate music mobility,Perfect for a life on the go</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Add To Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
                                     <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
                                  </div>
                               </div>

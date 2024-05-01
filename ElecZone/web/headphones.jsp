@@ -201,8 +201,8 @@
                                  <div class="laptop_img"><img src="images/AKG Archives.jpg"></div>
                                  <p>Custom 50mm Drivers,Bluetooth 5.0 Connectivity,AAC, SBC Codecs,15 Hz to 28 kHz Frequency Response</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                    <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="headphones.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -213,8 +213,8 @@
                                  <div class="laptop_img"><img src="images/sony WH-CH520.jpg"></div>
                                  <p>Up to 50-hour battery life,Quick charging,Crystal clear hands-free calling with built-in mic,Multipoint connection,Keep your music playing all day with a battery life that delivers up to 50 hours of power. USB Type-C quick charging gives up to 90 mins of play back from 3 minutes of charge</p>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="headphones.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
@@ -225,8 +225,8 @@
                                  <div class="laptop_img"><img src="images/sony wirless headphone.jpg"></div>
                                  <P>Integrated noise canceling technology,80 hours of battery life,Lightweight for ultimate music mobility,Perfect for a life on the go</P>
                                  <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                   <button class="buy_bt"><a href="cart.jsp">Add To Cart</a></button>
+                                    <div class="seemore_bt"><a href="headphones.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
