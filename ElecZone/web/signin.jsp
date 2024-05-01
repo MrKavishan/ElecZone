@@ -92,7 +92,7 @@
             </div>
           </div>
         </nav>
-        <!-- End Navbaar -->
+        <!-- End Navbaar c -->
       </div>
     </div>
   </div>
