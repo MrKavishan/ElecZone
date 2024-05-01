@@ -18,11 +18,11 @@ public class ProductDov {
     private String username="root";
     private String pwd="";
     
-    private static final String INSERT_products_SQL="INSERT INTO products(name,catagory,price,cart image,sub images,description) VALUES(?,?,?,?,?,?)";
+    private static final String INSERT_products_SQL="INSERT INTO products(name,catagory,price,image,description) VALUES(?,?,?,?,?)";
     private static final String SELECT_ALL_CAMERAS = "SELECT * FROM products WHERE category = 'camera'";
     private static final String SELECT_ALL_LAPTOPS = "SELECT * FROM products WHERE category = 'Laptop'";
     private static final String SELECT_ALL_PHONES = "SELECT * FROM products WHERE category = 'phone'";
-    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?,catagory=?, price=?, cart image=?,image,sub images=?, description=? WHERE id=?";
+    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?,catagory=?, price=?,image=?,description=? WHERE id=?";
     private static final String SELECT_PRODUCT_BY_ID = "SELECT * FROM products WHERE id=?";
     private static final String DELETE_PRODUCT_SQL = "DELETE FROM products WHERE id=?";
 
@@ -49,8 +49,8 @@ public class ProductDov {
             pst.setString(1,prd.getName());
             pst.setString(2,prd.getCatagory());
             pst.setString(3,prd.getPrice());
-            pst.setString(4,prd.getCartImage());
-            pst.setString(5,prd.getSubimage());
+            pst.setString(4,prd.getImage());
+
             pst.executeUpdate();
             
         }
@@ -74,10 +74,10 @@ public class ProductDov {
                 String price=rs.getString("price");
                 String des=rs.getString("des");
                 String catagory=rs.getString("catagory");
-                String cartimage=rs.getString("cartimage");
-                String subimage=rs.getString("subimage");
+                String image=rs.getString("image");
                 
-               showphones.add(new Products(name,price,des,catagory,cartimage,subimage));
+                
+               showphones.add(new Products(name,price,des,catagory,image));
         
             }
         }
@@ -101,10 +101,10 @@ public class ProductDov {
                 String price=rs.getString("price");
                 String des=rs.getString("des");
                 String catagory=rs.getString("catagory");
-                String cartimage=rs.getString("cartimage");
-                String subimage=rs.getString("subimage");
+                String image=rs.getString("image");
+             
                 
-               showlaptops.add(new Products(name,price,des,catagory,cartimage,subimage));
+               showlaptops.add(new Products(name,price,des,catagory,image));
         
             }
         }
@@ -128,10 +128,10 @@ public class ProductDov {
                 String price=rs.getString("price");
                 String des=rs.getString("des");
                 String catagory=rs.getString("catagory");
-                String cartimage=rs.getString("cartimage");
-                String subimage=rs.getString("subimage");
+                String image=rs.getString("image");
+               
                 
-               showcameras.add(new Products(name,price,des,catagory,cartimage,subimage));
+               showcameras.add(new Products(name,price,des,catagory,image));
         
             }
         }
@@ -165,8 +165,8 @@ public class ProductDov {
                 pst.setString(2,newp.getCatagory());
                 pst.setString(3,newp.getPrice());
                 pst.setInt(4,newp.getId());
-                pst.setString(5,newp.getCartImage());
-                pst.setString(6,newp.getSubimage());
+                pst.setString(5,newp.getImage());
+
                 rowupdated=pst.executeUpdate()>0;
                  
                 

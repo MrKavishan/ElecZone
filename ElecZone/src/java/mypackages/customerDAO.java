@@ -72,7 +72,7 @@ public class customerDAO {
         return rowdelete;
     }
     
-    public List<Customer> selectallAdmins(){
+   public List<Customer> selectallCustomers(){
         List<Customer> customers= new ArrayList<>();
         Customer customer = null;
         try {
@@ -93,26 +93,28 @@ public class customerDAO {
         }
         return customers;
     }
-    
-    public Customer selectCustomer (int id){
-        Customer customer= null;
-        try {
-            Connection connection = getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_CUS_BY_ID);
-            ResultSet rs= preparedStatement.executeQuery();
-            
-                while(rs.next()){
-                   String name = rs.getString("name");
-                   String email = rs.getString("email");
-                   String address = rs.getString("address");
-                   String mobile = rs.getString("mobile");
-                   customer = new Customer(id,name,email,address,mobile);
-                }
+   
+    public Customer selectCustomer(int id) {
+    Customer customer = null;
+    try {
+        Connection connection = getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(SELECT_CUS_BY_ID);
+        preparedStatement.setInt(1, id); // Set the id parameter
+        ResultSet rs = preparedStatement.executeQuery();
+
+        while (rs.next()) {
+            String name = rs.getString("name");
+            String email = rs.getString("email");
+            String address = rs.getString("address");
+            String mobile = rs.getString("mobile");
+            customer = new Customer(id, name, email, address, mobile);
+        }
         } catch (Exception e) {
             e.printStackTrace();
         }
         return customer;
     }
+
     
     public boolean updateCustomer (Customer customer){
         boolean rowupdated= false;

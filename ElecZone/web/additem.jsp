@@ -1,10 +1,3 @@
-<%-- 
-    Document   : additem
-    Created on : Apr 27, 2024, 9:12:04 AM
-    Author     : THoRx
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +23,25 @@
         h1 {
             text-align: center;
             color: #fff;
+        }
+	button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition-duration: 0.4s;
+        }
+
+        /* Change background color on hover */
+        button:hover {
+            background-color: #45a049;
         }
 
         form {
@@ -131,8 +143,8 @@
             background-color: #fff;
             color: #000;
             text-align: center;
-            padding: 20px;
-            
+            padding:0;
+           
             bottom: 0;
             width: 100%;
             display: flex;
@@ -176,6 +188,25 @@
         .footer-content a:hover {
             text-decoration: underline;
         }
+	.button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition-duration: 0.4s;
+        }
+
+        /* Change background color on hover */
+        .button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -201,14 +232,18 @@
         <input type="text" id="price" name="price" placeholder="XXX XXX LKR" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
 
         <label for="item_id">Item ID:</label>
-        <input type="text" id="item_id" name="item_id" readonly>
+        <input type="text" id="item_id" name="item_id" readomly>
 
         <label for="image">Image:</label>
         <input type="file" id="image" name="image">
 
         <input type="submit" value="Submit">
     </form>
-    <br>
+	<br>
+
+   <center><a href="dashboard.jsp" class="button">Dashboard</a></center>
+
+<br>
 
     <footer>
         <img src="logo.png" alt="Company Logo" height="150px" width="150px">
@@ -242,7 +277,13 @@
         document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("item_id").value = generateItemId();
         });
+
+	function resetFunction() {
+        // Add your reset logic here
+        alert("Are You Sure...?");
+    }
+	
+   
     </script>
 </body>
 </html>
-
