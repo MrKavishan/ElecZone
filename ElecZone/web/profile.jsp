@@ -64,22 +64,22 @@
         #change-pic-btn:hover {
             background-color: #45a049;
         }
-        #back-to-dashboard {
+        #back-to-home {
             display: block;
             margin-top: 20px;
             text-align: center;
             text-decoration: none;
-            color: #007bff;
+            color:  #020202;
             font-weight: bold;
             font-size: 16px;
-            border: 2px solid #007bff;
+            border: 2px solid  #020202;
             padding: 10px 20px;
             border-radius: 4px;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
-        #back-to-dashboard:hover {
-            background-color: #007bff;
-            color: #fff;
+        #back-to-home:hover {
+            background-color: #FFD700;
+            color: #020202;
         }
     </style>
 </head>
@@ -91,7 +91,7 @@
      <div><strong>Phone Number:</strong> <%= request.getAttribute("mobile") %></div>
         <button id="change-pic-btn">Change Profile Picture</button>
         <input type="file" id="change-pic-input" accept="image/*">
-        <a href="dashboard.jsp" id="back-to-dashboard">Back to Dashboard</a>
+        <a href="product.jsp" id="back-to-home">Back to Home</a>
     </div>
 
     <script>
