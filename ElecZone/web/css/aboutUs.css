@@ -7,10 +7,11 @@
   }
   /* Header styles */
   
+  
   main {
     margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 400px;
     background-color: rgba(157, 152, 152, 0.5);
     padding: 30px;
     border-left: 20px;
@@ -56,4 +57,13 @@
     text-align: center;
     padding: 20px;
     border-radius: 20px;
+  }
+  
+  .topic{
+    background-color: #5080c79f;
+    margin-top: 5%;
+    margin-left:45%;
+    margin-right: 40%;
+    padding: 10px;
+    border-radius: 50px;
   }
