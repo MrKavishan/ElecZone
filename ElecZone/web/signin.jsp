@@ -1,3 +1,8 @@
+<%-- 
+    Document   : signin
+    Created on : Apr 27, 2024, 5:52:11 AM
+    Author     : THoRx
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -16,14 +21,19 @@
   <title>
     Elec-Zone
   </title>
-  
+  <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
   <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
-  
+  <!-- Nepcha Analytics (nepcha.com) -->
+  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
@@ -73,15 +83,16 @@
               </ul>
               <ul class="navbar-nav d-lg-flex d-none">
                 <li class="nav-item d-flex align-items-center">
-                  <a class="btn btn-outline-primary btn-sm mb-0 me-2" target="_blank" href="#">Sample Button</a>
+                  
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="btn btn-sm mb-0 me-1 bg-gradient-dark">Sample Button</a>
+                  
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        <!-- End Navbaar -->
       </div>
     </div>
   </div>
@@ -115,26 +126,16 @@
                 </div>
               </div>
               <div class="card-body">
-                <form role="form" class="text-start">
-                  <div class="input-group input-group-outline my-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control">
-                  </div>
-                  <div class="input-group input-group-outline mb-3">
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-control">
-                  </div>
-                  <div class="form-check form-switch d-flex align-items-center mb-3">
-                    <input class="form-check-input" type="checkbox" id="rememberMe" checked>
-                    <label class="form-check-label mb-0 ms-3" for="rememberMe">Remember me</label>
-                  </div>
-                  <div class="text-center">
-                    <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">Sign in</button>
-                  </div>
-                  <p class="mt-4 text-sm text-center">
-                    Don't have an account?
-                    <a href="signup.jsp" class="text-primary text-gradient font-weight-bold">Sign up</a>
-                  </p>
+                <form role="form" class="text-start" action="CustLoginServlet" method="post">
+                          <div class="input-group input-group-outline my-3">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group input-group-outline mb-3">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                    <div class="text-center">
+                         <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Sign in</button>
+                    </div>
                 </form>
               </div>
             </div>
@@ -157,17 +158,15 @@
             <div class="col-12 col-md-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Elec-Zone</a>
+                  <a href="#" class="nav-link text-white" target="_blank">Product</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Blog</a>
+                  <a href="#" class="nav-link text-white" target="_blank">Contact US</a>
                 </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link pe-0 text-white" target="_blank">License</a>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -175,6 +174,7 @@
       </footer>
     </div>
   </main>
+  <!--   Core JS Files   -->
   <script src="assets/js/core/popper.min.js"></script>
   <script src="assets/js/core/bootstrap.min.js"></script>
   <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -188,7 +188,9 @@
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
   </script>
+  <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-dashboard.min.js?v=3.1.0"></script>
 </body>
 
