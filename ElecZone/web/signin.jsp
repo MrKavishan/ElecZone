@@ -1,8 +1,3 @@
-<%-- 
-    Document   : signin
-    Created on : Apr 27, 2024, 5:52:11 AM
-    Author     : THoRx
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,9 +14,9 @@
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo.png">
   <link rel="icon" type="image/png" href="assets/img/logo.png">
   <title>
-    Elec-Zone
+    Elec-Zone Signin
   </title>
-  <!--     Fonts and icons     -->
+
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
   <!-- Nucleo Icons -->
   <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -32,8 +27,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
-  <!-- Nepcha Analytics (nepcha.com) -->
-  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
@@ -44,7 +38,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg blur border-radius-xl top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid ps-2 pe-0">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="dashboard.jsp">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3" >
               Elec-Zone
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,19 +51,7 @@
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="dashboard.jsp">
-                    <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
-                    Dashboard
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="../pages/profile.html">
-                    <i class="fa fa-user opacity-6 text-dark me-1"></i>
-                    Profile
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="signup.html">
+                  <a class="nav-link me-2" href="signup.jsp">
                     <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
                     Sign Up
                   </a>
@@ -80,13 +62,7 @@
                     Sign In
                   </a>
                 </li>
-              </ul>
-              <ul class="navbar-nav d-lg-flex d-none">
-                <li class="nav-item d-flex align-items-center">
-                  
-                </li>
-                <li class="nav-item">
-                  
+
                 </li>
               </ul>
             </div>
@@ -149,13 +125,13 @@
             <div class="col-12 col-md-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Product</a>
+
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">About Us</a>
+                  <a href="aboutUs.jsp" class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-white" target="_blank">Contact US</a>
+
                 </li>
 
               </ul>
