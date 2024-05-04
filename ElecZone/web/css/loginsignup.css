@@ -66,7 +66,7 @@ body{
 }
 .form input.button{
   color: #fff;
-  background: #F90705;
+  background: #FFD700;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -75,7 +75,7 @@ body{
   transition: 0.4s;
 }
 .form input.button:hover{
-  background: #A34343;
+  background: #FFD700;
 }
 .signup{
   font-size: 17px;

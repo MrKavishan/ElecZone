@@ -23,8 +23,29 @@
         
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+        <style>
+            body{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background: #0f0c29;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+        </style>
     </head>
     <body>
+        <!--header section start-->
+        <nav class="custom_menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <!--header section end-->
+        <!--contact section start-->
         <div class="contact_section layout_padding">
          <div class="container">
             <div class="row">
@@ -53,5 +74,33 @@
                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
             </div>
         </div>
+        <!--contact section end-->
+        <!-- footer section start -->
+        <div id="footer"></div>
+            <div class="footer_section layout_padding">
+                <div class="container">
+                    <div class="footer_text"> Your Hub for Cutting-Edge Electronics!"<br>
+                            Where the place that your dream come true.
+                    </div>
+                    <div class="footer_logo">
+                        <a href="index.html"><img src="images/logo.png" /></a>
+                    </div>
+                    <div class="input_bt">
+                        <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email"/>
+                        <span class="subscribe_bt" id="basic-addon2"><a href="#">Contact Us</a></span>
+                    </div>
+                    <div class="footer_menu">
+                        <ul>
+                        </ul>
+                    </div>
+                    <div class="location_main">
+                        Hot Line Number : <a href="#">+94 11 233 1200</a>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- footer section end -->
+        <!-- Java script files-->
+        <script src="js/custom.js"></script>
     </body>
 </html>
