@@ -1,3 +1,4 @@
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,12 +16,18 @@
   <title>
     Elec-Zone Signin
   </title>
+
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
   <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
+
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
@@ -55,16 +62,13 @@
                     Sign In
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link me-2" href="adminsignin.jsp">
-                    <i class="fas fa-cog opacity-6 text-dark me-1"></i> <!-- Changed icon to settings icon -->
-                    Admin Sign In
-                  </a>
+
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        <!-- End Navbaar c -->
       </div>
     </div>
   </div>
@@ -98,16 +102,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <form role="form" class="text-start" action="CustLoginServlet" method="post">
-                  <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" name="email" placeholder="Email">
-                  </div>
-                  <div class="input-group input-group-outline mb-3">
-                    <input type="password" class="form-control" name="password" placeholder="Password">
-                  </div>
-                  <div class="text-center">
-                    <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Sign in</button>
-                  </div>
+
                 </form>
               </div>
             </div>
@@ -130,17 +125,15 @@
             <div class="col-12 col-md-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="product.jsp" class="nav-link text-white" target="_blank">Elec-Zone</a>
+
                 </li>
                 <li class="nav-item">
                   <a href="aboutUs.jsp" class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="ContactUs.jsp" class="nav-link text-white" target="_blank">Contact Us</a>
+
                 </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link pe-0 text-white" target="_blank">License</a>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -148,6 +141,7 @@
       </footer>
     </div>
   </main>
+  <!--   Core JS Files   -->
   <script src="assets/js/core/popper.min.js"></script>
   <script src="assets/js/core/bootstrap.min.js"></script>
   <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
@@ -161,7 +155,9 @@
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
   </script>
+  <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-dashboard.min.js?v=3.1.0"></script>
 </body>
 
