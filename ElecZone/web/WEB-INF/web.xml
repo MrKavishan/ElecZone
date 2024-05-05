@@ -4,16 +4,14 @@
         <servlet-name>productservlet</servlet-name>
         <servlet-class>mypackages.productservlet</servlet-class>
     </servlet>
-    <servlet>
-
-    </servlet>
+ 
     <servlet-mapping>
         <servlet-name>productservlet</servlet-name>
-        <url-pattern>/productservlet/*</url-pattern>
+        <url-pattern>/ElecZone/*</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
+<!--    <servlet-mapping>
 
-    </servlet-mapping>
+    </servlet-mapping>-->
     <session-config>
         <session-timeout>
             30
