@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    background-image: url("../images/ServicesCover.webp"); /* Replace 'your-background-image-url.jpg' with the actual URL or path to your image */
+    background-image: url("../web/images/ServicesCover.webp"); /* Replace 'your-background-image-url.jpg' with the actual URL or path to your image */
     background-size: auto;
     background-repeat: no-repeat; /* Optional: prevents the background image from repeating */
     background-color: rgba(115, 103, 103, 0.5);
