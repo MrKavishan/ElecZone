@@ -23,10 +23,10 @@ public class customerDAO {
     private String username = "root";
     private String password = "";
     
-    private static final String INSERT_CUS_SQL = "insert into customers"+"(name,email,address,mobile) values"+"(?,?,?,?);";
+    private static final String INSERT_CUS_SQL = "insert into customers"+"(name,email,password,mobile) values"+"(?,?,?,?);";
     private static final String SELECT_ALL_CUS = "select * from customers";
     private static final String DELETE_CUS_SQL = "delete from customers where id=?;";
-    private static final String UPDATE_CUS_SQL = "update customers set name = ?, email = ?, address = ?, mobile = ? where id=?;";
+    private static final String UPDATE_CUS_SQL = "update customers set name = ?, email = ?, password = ?, mobile = ? where id=?;";
     private static final String SELECT_CUS_BY_ID = "select * from customers where id=?;";
     
     protected Connection getConnection(){
@@ -49,7 +49,7 @@ public class customerDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_CUS_SQL);
             preparedStatement.setString(1, customer.getName());
             preparedStatement.setString(2, customer.getEmail());
-            preparedStatement.setString(3, customer.getAddress());
+            preparedStatement.setString(3, customer.getPassword());
             preparedStatement.setString(4, customer.getMobile());
             preparedStatement.executeUpdate();
             
@@ -84,9 +84,9 @@ public class customerDAO {
                     int id=rs.getInt("id");
                     String name= rs.getString("name");
                     String email= rs.getString("email");
-                    String address= rs.getString("address");
+                    String password= rs.getString("password");
                     String mobile = rs.getString("mobile");
-                    customers.add(new Customer(id,name,email,address,mobile));
+                    customers.add(new Customer(id,name,email,password,mobile));
                 }
         } catch (Exception e) {
             e.printStackTrace();
@@ -105,9 +105,9 @@ public class customerDAO {
         while (rs.next()) {
             String name = rs.getString("name");
             String email = rs.getString("email");
-            String address = rs.getString("address");
+            String password = rs.getString("password");
             String mobile = rs.getString("mobile");
-            customer = new Customer(id, name, email, address, mobile);
+            customer = new Customer(id, name, email, password, mobile);
         }
         } catch (Exception e) {
             e.printStackTrace();
@@ -123,7 +123,7 @@ public class customerDAO {
             PreparedStatement preparedStatement= connection.prepareStatement(UPDATE_CUS_SQL);
             preparedStatement.setString(1, customer.getName());
             preparedStatement.setString(2, customer.getEmail());
-            preparedStatement.setString(3, customer.getAddress());
+            preparedStatement.setString(3, customer.getPassword());
             preparedStatement.setString(4, customer.getMobile());
             preparedStatement.setInt(5, customer.getId());
             rowupdated = preparedStatement.executeUpdate() > 0 ;
