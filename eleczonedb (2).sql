@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 01, 2024 at 09:54 AM
+-- Generation Time: May 10, 2024 at 05:26 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -53,13 +53,12 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `email`, `password`, `mobile`) VALUES
-(27, 'dias sahan', 'diask@gmail.com', 'India', '1234588'),
-(30, 'test66', 'test3@gmail.com', 'Kenya', '0712535893'),
-(33, 'test35', 'test3@gmail.com', 'kandy', '0712535893'),
-(34, 'dias sahan', 'sahankaushalayadias@gmail.com', '12345', '0712535893'),
-(35, 'dias sahan', 'sahankaushalayadias@gmail.com', '12345', '0712535893'),
-(36, 'dias sahan', 'sahankaushalayadias@gmail.com', '12345', '0712535893'),
-(37, 'sahan', 'ashen12@gmail.com', '12345', '55555555');
+(33, 'test39', 'test39@gmail.com', 'kandy', '0712535893'),
+(39, 'test 11', 'test 11@gmail.com', 'wq333r4gsrgh', '12347764474'),
+(40, 'ala', 'ala@gmail.com', '13545ala', '0712584762'),
+(41, 'ala2', 'ala2@gmail.com', '13545ala', '0712584762'),
+(42, 'ala3', 'ala3@gmail.com', '13545ala', '0712584762'),
+(43, 'ala4', 'ala4@gmail.com', '13545ala', '0712584762');
 
 -- --------------------------------------------------------
 
@@ -70,8 +69,8 @@ INSERT INTO `customers` (`id`, `name`, `email`, `password`, `mobile`) VALUES
 CREATE TABLE `orders` (
   `orderid` int(10) NOT NULL,
   `productname` varchar(250) NOT NULL,
-  `price` varchar(100) NOT NULL,
-  `quantity` varchar(10) NOT NULL,
+  `price` varchar(50) NOT NULL,
+  `quantity` int(10) NOT NULL,
   `totalprice` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -80,11 +79,10 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`orderid`, `productname`, `price`, `quantity`, `totalprice`) VALUES
-(1, 'apple 6s', '100000', '1', '100000'),
-(2, 'apple 6s', '100000', '1', '100000'),
-(3, 'sony 115', '150000', '1', '150000'),
-(4, 'google pixel', '60000', '2', '120000'),
-(5, 'google pixel', '60000', '2', '120000');
+(1, 'Samsung Galaxy M32', '100000', 1, '100000'),
+(2, 'Apple 15 pro', '350000', 1, '350000'),
+(3, 'Dell Latitude', '200000', 2, '400000'),
+(4, 'Lenovo Thinkpad', '150000', 1, '150000');
 
 -- --------------------------------------------------------
 
@@ -99,7 +97,7 @@ CREATE TABLE `products` (
   `price` varchar(50) NOT NULL,
   `description` varchar(250) NOT NULL,
   `quantity` int(50) NOT NULL,
-  `image` longblob NOT NULL
+  `imagefilename` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -144,13 +142,13 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `orderid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `orderid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `products`
