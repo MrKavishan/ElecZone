@@ -776,6 +776,7 @@ a:hover {
   float: left;
   background-color: #252525;
   height: 75%;
+  margin-top: 15px;
 }
 
 .footer_logo {
@@ -917,5 +918,4 @@ input.mail_bt::placeholder {
   text-align: center;
   font-weight: bold;
   padding-bottom: 5px;
-
-/* copyright section end */
+}
