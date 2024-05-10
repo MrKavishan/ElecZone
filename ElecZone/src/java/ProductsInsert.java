@@ -30,7 +30,7 @@ public class ProductsInsert extends HttpServlet {
  private static final long serialVersionUID = 1L;
     
     // JDBC URL, username, and password for your MySQL database
-    private static final String url = "jdbc:mysql://localhost:3306/ecommerceweb";
+    private static final String url = "jdbc:mysql://localhost:3306/eleczone";
     private static final String username = "root";
     private static final String password = "";
    

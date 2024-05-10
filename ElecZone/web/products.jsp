@@ -100,7 +100,7 @@
 </head>
 <body>
   <div>
-    
+    <jsp:include page="/Productservlet"/>
     <br>
     <div class="container">
       <div class="content">
@@ -108,7 +108,7 @@
         <div class="product-grid">
           <c:forEach var="product" items="${productList}">
             <div class="product-card">
-              <img src="Showimage?id=${product.id}" alt="Product Image">
+              <img src="${product.image}" alt="Product Image">
               <div class="card-content">
                 <h3>${product.name}</h3>
                 <p>Type: ${product.category}</p>
